@@ -3,7 +3,7 @@ const path = require('path');
 const webpack = require('webpack');
 const nodeExternals = require('webpack-node-externals');
 
-module.exports = function (options) {
+module.exports = function(options) {
   return {
     ...options,
     externals: [
